@@ -124,7 +124,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: black;
 	}
 
 	i, em {
@@ -1980,12 +1980,12 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background-image: none;
-			background-color: #fff;
+			background-image: url("../../images/code.jpg");
+			width: 100%;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+			background-color: #fff;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
@@ -2108,11 +2108,13 @@ input, select, textarea {
 
 		#top h1 {
 			margin-top: 0.35em;
+			color: black;
 		}
 
 		#top p {
 			font-size: 1.5em;
 			line-height: 1.75em;
+			color: black;
 		}
 
 			#top p a {
@@ -2428,4 +2430,14 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
+	}
+
+	.transbox {
+		display: border-box;
+		text-align: center;
+		background-color: white;
+		opacity: 0.5;
+		/* padding-left: 10px; */
+		border: 1px solid black;
+		margin-bottom: 20px;
 	}
